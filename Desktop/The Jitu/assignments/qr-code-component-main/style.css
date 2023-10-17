@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #d5e1ef;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height:100vh; /*check height*/
+}
+.qr-container{
+    width:400px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+    margin:20px;
+}
+img{
+    width:360px;
+    height:360px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+h1{
+    padding:5px;
+}
+p{
+    opacity: 0.65;
+    padding: 6px;
+    font-size:15px;
+}
+.attribution{
+    font-size: 15px;
+
+}
