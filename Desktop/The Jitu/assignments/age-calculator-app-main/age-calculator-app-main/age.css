@@ -6,31 +6,68 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blueviolet;
+  background-color: hsl(0, 0%, 86%);
 }
 .container{
-  background-color: antiquewhite;
-  width:80vw;
+  background-color:  hsl(0, 0%, 94%);
+  width:40vw;
+  min-height: 70vh;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 15px;
+  padding: 20px 40px;
   border-bottom-right-radius: 80px;
   margin-top: 100px;
 }
+
 .findAge{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
-form>div>input{
+.submit_block{
+ /* width: 100%; */
+ margin-top: -30px;
+ display: flex;
+ justify-content: end;
+
+}
+.sumbit_btn{
+  border: none;
+}
+
+.input-holder{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+.input-holder >div> input{
   width:50px;
-  margin-left: 30px;
+  height: 20px;
+  /* margin-left: 30px; */
+}
+.submit_block{
+  border-radius: 100%;
+  margin-bottom: -3rem;
 }
 button{
   border-radius: 100%;
   background-color: blueviolet;
+  /* margin-bottom: -2rem; */
 }
+/* .submit_block:hover{ */
+  /* background-color: black; */
+/* } */
 button:hover{
-  color:black
+  background-color:black
+}
+
+.output>h1>span{
+  color: blueviolet;
+  font-size: 32px;
+  height: 20px;
+  width: 20px;
+
 }
